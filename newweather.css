@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#mydiv{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../drybranch.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: absolute;
+    /* opacity: 0.6; */
+}
+body{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.search {
+  background: linear-gradient(135deg,#00feba,#5b548a);
+position: relative;
+text-align: center;
+  margin-top: 5%;
+  margin-left: 35%;
+  width: 500px;
+  border-radius: 20px;
+  border: 1px solid rgb(112, 248, 196);
+  color: white;
+  padding: 20px;
+  padding: 60px 0px;
+  box-shadow: 1px 6px 5px 10px rgb(234, 235, 235) ;
+
+
+}
+.search input {
+  padding: 15px;
+  border-radius: 20px;
+  position: relative;
+  background-color: white;
+
+}
+.search input:hover{
+  background-color: rgb(183, 221, 243);
+
+}
+
+
+.temp{
+    font-size:40px;
+  /* position: relative; */
+
+}
+.search button>img {
+  height: 20px;
+  /* position: relative; */
+
+  
+}
+.search button{
+    height: 35px;
+    width: 33px;
+  border-radius: 30px;
+  /* position: relative; */
+
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  /* position: relative; */
+
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+  /* position: relative; */
+
+    
+}
+.col img{
+    height: 50px;
+    padding: 0px 5px;
+    /* position: relative; */
+}
+.humidity,.wind{
+
+    font-size: 28px;
+    margin-top: -15px;
+  /* position: relative; */
+
+}
